@@ -171,7 +171,18 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1.5em;
+		letter-spacing: -0.025em;
+	}
+
+	article h3 {
+		font-size: 1.5em;
+		letter-spacing: -0.025em;
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 1.1em;
 		letter-spacing: -0.025em;
 	}
 
@@ -197,6 +208,17 @@ input, select, textarea {
 		border-left: solid 0.5em #e0e0e0;
 		font-style: italic;
 		padding: 1em 0 1em 2em;
+	}
+
+	.center {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 80%;
+	}
+
+	figcaption figure {
+		text-align: center;
 	}
 
 /* Container */
@@ -1977,10 +1999,19 @@ input, select, textarea {
 	header p {
 		/* color: #999; */
 		color: #999;
-		font-size: 1.25em;
+		font-size: 1.1em;
 		position: relative;
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
+		text-align: center;
+	}
+
+	header h2 {
+		text-align: center;
+	}
+
+	article p {
+		text-indent: 2em;
 	}
 
 	header.major {
@@ -2933,10 +2964,6 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 			}
 
-			header p {
-				margin-top: -0.75em;
-			}
-
 			header.major {
 				text-align: center;
 				margin: 0 0 2em 0;
@@ -3234,10 +3261,17 @@ input, select, textarea {
 			}
 
 			h3 {
+				font-size: 1.2em;
+				letter-spacing: 0;
+				line-height: 1.35em;
+				text-align: center;
+			}
+
+			/* h3 {
 				font-size: 1em;
 				letter-spacing: 0;
 				line-height: 1.35em;
-			}
+			} */
 
 			header p {
 				margin-top: -0.5em;
