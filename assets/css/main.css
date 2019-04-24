@@ -3286,6 +3286,10 @@ input, select, textarea {
 					font-size: 24px;
 				}
 
+			img {
+				width: 360px;
+			}
+
 		/* Button */
 
 			input[type="submit"],
