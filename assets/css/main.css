@@ -237,6 +237,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			img {
+				width: 50%;
+			}
+
 		}
 
 /* Row */
