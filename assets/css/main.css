@@ -3322,7 +3322,7 @@ input, select, textarea {
 
 			#banner {
 				height: 20em;
-				width: 10em;
+				/* width: 10em; */
 			}
 
 				#banner header {
