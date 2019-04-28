@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+
+ul li a {
+	white-space: nowrap;
+}
+
 table, th, td {
 	border-collapse: collapse;
 	border-spacing: 0;
