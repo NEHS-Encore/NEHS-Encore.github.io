@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+figure {
+	text-align: center;
+}
 
 ul li a {
 	white-space: nowrap;
