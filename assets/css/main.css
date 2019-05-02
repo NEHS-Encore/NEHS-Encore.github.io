@@ -49,6 +49,7 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	width: 100%;
 }
 
 body {
@@ -3281,6 +3282,8 @@ input, select, textarea {
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+
+
 
 		/* Icon */
 
