@@ -2670,7 +2670,7 @@ input, select, textarea {
 		background-image: url("../../images/banner.png");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 50em;
 		text-align: center;
 		position: relative;
 	}
@@ -2801,7 +2801,7 @@ input, select, textarea {
 			color: #999;
 			margin-top: 1.5em;
 			text-align: center;
-			font-size: 0.7em;
+			font-size: 0.5em;
 		}
 
 /* Wide */
